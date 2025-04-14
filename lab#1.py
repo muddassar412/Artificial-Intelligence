@@ -12,13 +12,11 @@ print(y-new)
 
 
 """
-from google.colab import drive
+
 import sklearn
 import numpy as np
 import pandas as pd
-from sklearn import linear_model
 
-drive.mount('/content/drive')
 
 # Assuming your excel file is named 'your_excel_file.xlsx' and located in your Google Drive
 # Replace 'your_excel_file.xlsx' and the path if necessary
